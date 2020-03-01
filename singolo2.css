@@ -1,0 +1,189 @@
+body{
+	margin:0;
+}
+.wrapper{
+	width: 1020px;
+	height: 1604px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+.Portfolio{
+	width: 1020px;
+	height: 864px;
+	background-color: #2d303a;
+}
+
+.first_indent{
+	margin: 0;
+	font-size: 33px;
+    color: #666d89;
+    padding: 58px 0 0 40px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.second_indent{
+	margin: 0;
+	font-size: 17px;
+    color: #767e9e;
+    padding: 21px 0 0 41px;
+    font-weight: 400;
+    word-spacing: 1px;
+}
+
+
+ul li{
+	width:286px;
+	color: #636983;
+	font-size: 11px;
+    display: inline;
+    border: 1px solid #636983;
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+	margin: 3px; 
+}
+
+ul li:hover{
+	color:white;
+	border: 1px solid white;
+	cursor:pointer;
+	transition:all .3s;
+}
+
+
+
+.grid_contanier{
+	display: grid;
+	width: 940px;
+	height: 603px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 16px 19px;
+    padding: 3px 40px 0 38px
+}
+
+.Portfolio_bottom{
+	width: 1020px;
+	height: 6px;
+	background-color: #323746;
+}
+
+/*footer*/
+
+.footer{
+	width:1020px;
+	height:728px;
+	background-color: #f2f2f2;
+}
+
+.footer_bottom{
+	width:1020px;
+	height: 6px;
+	background-color: #ffffff;
+}
+
+.about{
+	margin: 0;
+	font-size: 33px;
+	color: #666d89;
+	padding: 58px 0 0 40px;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.Fusce{
+    font-size: 18px;
+    font-weight: 100;
+    color: #767e9e;
+    line-height: 29px;
+    word-spacing: -1px;
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 43px
+}
+.photo_contanier{
+	display: grid;
+    width: 940px;
+    height: 500px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 16px 19px;
+    padding: 45px 40px 0 38px;
+}
+/*blog Adam Jensen*/
+.name_1{
+ color: #666d89;
+ font-size: 18px;
+ font-weight:600;
+ padding: 10px 10px 0 3px;
+ margin: 0px;
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.text_1{
+ color: #767e9e;
+ font-size: 11px;
+ font-weight:600;
+ padding: 10px 10px 0 1px;
+ margin: 0px;
+ text-align: justify;
+ line-height: 20px;
+}
+/*blog social_icon*/
+.social_icon{
+	padding-top: 24px;
+	width:155px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.social_icon a:hover{
+   transform: scale(1.2);
+   transition:all .3s;
+}
+
+
+/* blog Desmond Miles*/
+
+.name_2{
+ color: #666d89;
+ font-size: 18px;
+ font-weight:600;
+ padding: 10px 10px 0 1px;
+ margin: 0px;
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.text_2{
+ color: #767e9e;
+ font-size: 11px;
+ font-weight:600;
+ padding: 10px 10px 0 1px;
+ margin: 0px;
+ text-align: justify;
+ line-height: 20px;
+}
+
+/*blog Scolara Visari*/
+.name_3{
+ color: #666d89;
+ font-size: 18px;
+ font-weight:600;
+ padding: 10px 10px 0 1px;
+ margin: 0px;
+ white-space: nowrap;
+ overflow: hidden;
+}
+
+.text_3{
+ color: #767e9e;
+ font-size: 11px;
+ font-weight:600;
+ padding: 10px 10px 0 1px;
+ margin: 0px;
+ text-align: justify;
+ line-height: 20px;
+}
